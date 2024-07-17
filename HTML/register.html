@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration Form </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <link href="asset/favicon.png" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../CSS/registerForm.css" />
+        <link rel="stylesheet" href="../CSS/master.css" />
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header class="header">
+            <a href="#" class="logo"> <i class="fa fa-shopping-basket"></i> 30min-skinhaven </a>
+            <nav class="navbar">
+                <a href="../index.html"> home </a>
+                <a href="#products"> products </a>
+                <a href="#blogs"> blogs </a>
+                <a href="#about me"> about me </a>
+                <a href="#contact me"> contact me </a>
+            </nav>
+            <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+            <div class="fa fa-bars" id="menu-btn"></div>
+            </div>
+
+            <form class="search-form">
+                <input type="search" id="search-box" placeholder="Search here ...">
+                <label for="search-box" class="fa fa-search"></label>
+            </form>
+
+            <div class="shoping-cart">
+                <div class="box">
+                    <i class="fa fa-trash"></i>
+                    <img src="../asset/aphroEyelashSerum-pro.jpg" alt="aphro Eyelash Serum">
+                    <div class="content">
+                        <h3> Eyelash Serum </h3>
+                        <span class="price"> $5000/- </span>
+                        <span class="quantity"> Qty: 1 </span>
+                    </div>
+                </div>    
+
+                    <div class="box">
+                        <i class="fa fa-trash"></i>
+                        <img src="../asset/GarnierHandMask-pro.jpg" alt="Garnier Hand Mask">
+                        <div class="content">
+                            <h3> Hand Mask </h3>
+                            <span class="price"> $6000/- </span>
+                            <span class="quantity"> Qty: 2 </span>
+                        </div>
+                    </div>    
+
+                        <div class="box">
+                            <i class="fa fa-trash"></i>
+                            <img src="../asset/DoveBodyShampoo-pro.jpg" alt="Dove Body Shampoo">
+                            <div class="content">
+                                <h3> Body shampoo </h3>
+                                <span class="price"> $7000/- </span>
+                                <span class="quantity"> Qty: 3 </span>
+                            </div>
+                </div>
+                <div class="total"> total: $18.oo/- </div>
+                <a href="#" class="btn"> checkout </a>
+            </div>
+
+            <form action="#" class="login-form">
+                <h3> Login Now </h3>
+                <input class="box" type="email" placeholder="your email">
+                <input class="box" type="password" placeholder="your password">
+                <p> Forget Your Password <a href="#"> Click Here </a></p>
+                <p> Don't Have An Account <a href="../HTML/register.html"> Create Now </a></p>
+                <input class="btn" type="submit" value="Login Now">
+            </form>
+        </header>
+
+        <!-- Section Sign up Form-->
+        <section class="registerForm">
+            <form class="register-form" action="/action_page.php">
+                    <h1> Register Form </h1>
+                    <label for="name"> Full Name: </label>
+                    <input name="name" id="name" type="text" placeholder="Your Full name" required>                
+                     
+                    <label for="email"> Email: </label>
+                    <input name="email" id="email" type="email" placeholder="Enter Email" required>
+                
+                    <label for="psw"> Password: </label>
+                    <input name="psw" id="psw" type="password" placeholder="Enter Password" required>
+
+                    <label for="psw-repeat">Repeat Password:</label>
+                    <input name="psw-repeat" id="psw-repeat" type="password" placeholder="Repeat Password" required>
+                
+                    <input type="checkbox" required>
+                    <label id="checkbox"> I agree to the Terms and Conditions <a href="#">Terms & Privacy</a>.</label>
+
+                    <button class="registerbtn" type="submit"> Register </button>
+            </form>
+        </section>
+
+         <!-- Footer Section -->
+         <section class="footer" id="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3> 30min-skinhave <i class="fa fa-basket-shopping"></i></h3>
+                    <p> Feel Free To Follow Us On Our Social Media Handles All The Links Are Given Below. </p>
+                    <div class="share">
+                        <a href="https://www.facebook.com/30min.skinhaven" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/30min_skinhaven" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-whatsapp"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h3> Contact Info </h3>
+                        <a href="#" class="links"><i class="fa fa-phone"></i> +9800000000 </a>
+                        <a href="#" class="links"><i class="fa fa-phone"></i> +98915000000 </a>
+                        <a href="#" class="links"><i class="fa fa-envelope"></i> *****@gmail.com </a>
+                        <a href="#" class="links"><i class="fa fa-map-marker"></i> Mashhad, Iran </a>
+                </div>
+
+                <div class="box">
+                    <h3> Quick Links </h3>
+                        <a href="../index.html" class="links"><i class="fa fa-arrow-right"></i> Home </a>
+                        <a href="#" class="links"><i class="fa fa-arrow-right"></i> Features </a>
+                        <a href="#" class="links"><i class="fa fa-arrow-right"></i> Products </a>
+                        <a href="#" class="links"><i class="fa fa-arrow-right"></i> Review </a>
+                        <a href="#" class="links"><i class="fa fa-arrow-right"></i> Blogs </a>
+                </div>
+
+                <div class="box">
+                    <h3> Newsletter </h3>
+                    <p> Subscribe For Latest Updates </p>
+                    <input class="email" type="email" placeholder="Your Email">
+                    <input class="btn" type="submit" value="subscribe">
+                    <img class="payment-img" src="../asset/payment.png" alt="Payment Image">
+                </div>
+            </div>
+            <div class="credit"> Created By <span> Shirin Hajizadeh </span> | All Rights Reserved</div>
+           </section>
+
+           <script src="../JS/main.js" defer></script>
+
+    </body>
+
+</html>

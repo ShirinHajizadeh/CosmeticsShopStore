@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Add padding to containers */
+.registerForm{
+  width: 100%;
+  height: auto;
+  background-color: #ffdbac;
+}
+
+.register-form{
+  width: 400px;
+  height: auto;
+  padding: 3rem;
+  margin: 10rem;
+  align-items: center;
+  border: 1px solid #c68642;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1.5rem #c68642;
+  color: #c68642; 
+  opacity: .6px;
+  background: #eee;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email]  {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #eee;
+  border-radius: .5rem;  
+  border: 1px solid #c68642;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #eee;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: .8rem 3rem;
+  border: none;
+  border-radius: .5rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  background: #c68642;
+  color: #fff; 
+  text-align: center;
+  width: 100%;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+  background: #ffdbac;
+  color: #c68642;
+}
+
+/* Add a blue text color to links */
+.register-form a {
+  color: gray;
+}
+
+.register-form a:hover {
+  color: c68642;
+}
+
+.register-form h1{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.register-form #checkbox{
+  font-size: 1.2rem;
+} 
+
+.register-form label{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+
+
+
+
+ 
