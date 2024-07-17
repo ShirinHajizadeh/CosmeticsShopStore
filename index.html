@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Skin & Hair Care Store</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <link href="asset/favicon.png" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="CSS/master.css" />        
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header class="header">
+            <a href="#" class="logo"> <i class="fa fa-shopping-basket"></i> 30min-skinhaven </a>
+            <nav class="navbar">
+                <a href="#home"> home </a>
+                <a href="#products"> products </a>
+                <a href="#blogs"> blogs </a>
+                <a href="#about me"> about me </a>
+                <a href="#contact me"> contact me </a>
+            </nav>
+            <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="cart-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+            <div class="fa fa-bars" id="menu-btn"></div>
+            </div>
+
+            <form class="search-form">
+                <input type="search" id="search-box" placeholder="Search here ...">
+                <label for="search-box" class="fa fa-search"></label>
+            </form>
+
+            <div class="shoping-cart">
+                <div class="box">
+                    <i class="fa fa-trash"></i>
+                    <img src="asset/aphroEyelashSerum-pro.jpg" alt="aphro Eyelash Serum">
+                    <div class="content">
+                        <h3> Eyelash Serum </h3>
+                        <span class="price"> $5000/- </span>
+                        <span class="quantity"> Qty: 1 </span>
+                    </div>
+                </div>    
+
+                    <div class="box">
+                        <i class="fa fa-trash"></i>
+                        <img src="asset/GarnierHandMask-pro.jpg" alt="Garnier Hand Mask">
+                        <div class="content">
+                            <h3> Hand Mask </h3>
+                            <span class="price"> $6000/- </span>
+                            <span class="quantity"> Qty: 2 </span>
+                        </div>
+                    </div>    
+
+                        <div class="box">
+                            <i class="fa fa-trash"></i>
+                            <img src="asset/DoveBodyShampoo-pro.jpg" alt="Dove Body Shampoo">
+                            <div class="content">
+                                <h3> Body shampoo </h3>
+                                <span class="price"> $7000/- </span>
+                                <span class="quantity"> Qty: 3 </span>
+                            </div>
+                </div>
+                <div class="total"> total: $18.oo/- </div>
+                <a href="#" class="btn"> checkout </a>
+            </div>
+
+            <form action="#" class="login-form">
+                <h3> Login Now </h3>
+                <input class="box" type="email" placeholder="your email">
+                <input class="box" type="password" placeholder="your password">
+                <p> Forget Your Password <a href="#"> Click Here </a></p>
+                <p> Don't Have An Account <a href="HTML/register.html"> Create Now </a></p>
+                <input class="btn" type="submit" value="Login Now">
+            </form>
+        </header>
+
+        <!-- Banner Section -->
+         <section class="home" id="home">
+            <div class="content">
+                <h3> The latest And <span> Highest Quality </span> Care Products For You </h3>
+                <p> Simin's Skin Haven, a sanctuary for preserving your natural beauty. <br>
+                    With the best products, we can help you keep your skin radiant and healthy. </p>
+                <a href="#" class="btn"> Shop Now </a>
+            </div>
+         </section>
+
+        <!-- Our Features Section -->
+        <section class="features" id="features">
+            <h1 class="heading"> Our <span> Features </span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="asset/1.jpg" alt="Features Image">
+                    <h3> Orginal Brands Of Care Products </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vitae labore quasi eos saepe aliquam, facere quaerat omnis asperiores, magni sunt illo et nam reiciendis nihil in inventore? Et, vero. </p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+
+                <div class="box">
+                    <img src="asset/2.jpg" alt="Features Image">
+                    <h3> Highest Quality Care Products </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vitae labore quasi eos saepe aliquam, facere quaerat omnis asperiores, magni sunt illo et nam reiciendis nihil in inventore? Et, vero. </p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+
+                <div class="box">
+                    <img src="asset/5.jpg" alt="Features Image">
+                    <h3> Top Global Care Products </h3>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero vitae labore quasi eos saepe aliquam, facere quaerat omnis asperiores, magni sunt illo et nam reiciendis nihil in inventore? Et, vero. </p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Our Products Section -->
+     <section class="products" id="products">
+        <h1 class="heading"> Our <span> Products </span></h1>
+        <!-- row1-->
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="asset/seforaFaceCream-pro.jpg" alt="SEFORA Face Cream">
+                    <h1> SEFORA Face Cream </h1>
+                    <div class="price"> $7.80/- - 12.00/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add To Cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="asset/CliniqueEyelashSerum-pro.jpg" alt="Clinique Eyelash Serum">
+                    <h1> Clinique Eyelash Serum </h1>
+                    <div class="price"> $8.80/- - 12.00/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add To Cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="asset/LaveraEyelashSerum-pro.jpg" alt="Lavera Eyelash Serum">
+                    <h1> Lavera Eyelash Serum </h1>
+                    <div class="price"> $8.80/- - 12.00/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add To Cart </a>
+                </div> 
+
+                <div class="swiper-slide box">
+                    <img src="asset/cliniqueSunscreen-pro.jpg" alt="Clinique Sunscreen Cream">
+                    <h1> Clinique Sunscreen Cream </h1>
+                    <div class="price"> $10.80/- - 12.00/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add To Cart </a>
+                </div>
+            </div>
+        </div>
+        <!-- row2-->
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="asset/lorealHairShampoo-pro.jpeg" alt="LOREAL Hair Shampoo">
+                    <h1> LOREAL Hair Shampoo </h1>
+                    <div class="price"> $7.80/- - 12.00/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="asset/DoveBodyShampoo-pro.jpg" alt="Dove Body Shampoo">
+                    <h1> Dove Body Shampoo </h1>
+                    <div class="price"> $8.80/- - 12.00/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add To Cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="asset/GarnierHandMask-pro.jpg" alt="Garnier Hand Mask">
+                    <h1> Garnier Hand Mask </h1>
+                    <div class="price"> $8.80/- - 12.00/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add To Cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="asset/garnierFaceMask-pro.jpg" alt="Garnier Face Mask">
+                    <h1> Garnier Face Mask </h1>
+                    <div class="price"> $10.80/- - 12.00/- </div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add To Cart </a>
+                </div>
+            </div>
+        </div>
+     </section>
+
+        <!-- Categories Section -->
+         <section class="categories" id="categories">
+            <h1 class="heading"> Product <span> Categories </span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="asset/faceMask-category.jpg" alt="Face Mask">
+                    <h3> Face Mask </h3>
+                    <p> Upto 45% Off </p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+
+                <div class="box">
+                    <img src="asset/sunscreen-category.jpg" alt="Sunscreen Cream">
+                    <h3> Sunscreen Cream </h3>
+                    <p> Upto 45% Off </p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+
+                <div class="box">
+                    <img src="asset/hairShampoo-category.jpg" alt="Hair Shampoo">
+                    <h3> Hair Shampoo </h3>
+                    <p> Upto 45% Off </p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+
+                <div class="box">
+                    <img src="asset/hairConditioner-category.jpg" alt="Hair Conditioner">
+                    <h3> Hair Conditioner </h3>
+                    <p> Upto 45% Off </p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+
+                <div class="box">
+                    <img src="asset/bodyShampoo-category.jpg" alt="Body Shampoo">
+                    <h3> Body Shampoo </h3>
+                    <p> Upto 45% Off </p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+
+                <div class="box">
+                    <img src="asset/bodyLotion-category.jpg" alt="Body Lotion">
+                    <h3> Body Lotion </h3>
+                    <p> Upto 45% Off </p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+
+                <div class="box">
+                    <img src="asset/faceCream-category.jpg" alt="Face Cream">
+                    <h3> Face Cream </h3>
+                    <p> Upto 45% Off </p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div> 
+
+                <div class="box">
+                    <img src="asset/eyelashSerum-category.jpg" alt="Eyelash Serum">
+                    <h3> Eyelash Serum </h3>
+                    <p> Upto 45% Off </p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div>
+
+                <div class="box">
+                    <img src="asset/eyebrowSerum-category.jpg" alt="Eyebrow Serum">
+                    <h3> Eyebrow Serum </h3>
+                    <p> Upto 45% Off </p>
+                    <a href="#" class="btn"> Shop Now </a>
+                </div> 
+            </div>
+        </section>
+
+        <!-- Customer's Review Section -->
+         <section class="review" id="review">
+            <h1 class="heading"> Customer's <span> Review </span></h1>
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="asset/review1.jpg" alt="Customer Review">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, mollitia? Doloremque neque veniam iusto optio laudantium, a quo perspiciatis quam quae ipsam, possimus blanditiis est sint repellat. Aliquid, beatae omnis. </p>
+                        <h3> Eric </h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="asset/review2.jpg" alt="Customer Review">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, mollitia? Doloremque neque veniam iusto optio laudantium, a quo perspiciatis quam quae ipsam, possimus blanditiis est sint repellat. Aliquid, beatae omnis. </p>
+                        <h3> Shirin </h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="asset/review3.jpg" alt="Customer Review">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, mollitia? Doloremque neque veniam iusto optio laudantium, a quo perspiciatis quam quae ipsam, possimus blanditiis est sint repellat. Aliquid, beatae omnis. </p>
+                        <h3> Johan </h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="asset/review4.jpg" alt="Customer Review">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, mollitia? Doloremque neque veniam iusto optio laudantium, a quo perspiciatis quam quae ipsam, possimus blanditiis est sint repellat. Aliquid, beatae omnis. </p>
+                        <h3> Sara </h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="asset/review5.jpg" alt="Customer Review">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, mollitia? Doloremque neque veniam iusto optio laudantium, a quo perspiciatis quam quae ipsam, possimus blanditiis est sint repellat. Aliquid, beatae omnis. </p>
+                        <h3> Kenni </h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="asset/review6.jpg" alt="Customer Review">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, mollitia? Doloremque neque veniam iusto optio laudantium, a quo perspiciatis quam quae ipsam, possimus blanditiis est sint repellat. Aliquid, beatae omnis. </p>
+                        <h3> Karmen </h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="asset/review7.jpg" alt="Customer Review">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, mollitia? Doloremque neque veniam iusto optio laudantium, a quo perspiciatis quam quae ipsam, possimus blanditiis est sint repellat. Aliquid, beatae omnis. </p>
+                        <h3> Mohsen </h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Our Blogs Section -->
+       <section class="blogs" id="blogs">
+            <h1 class="heading "> Our <span> Blogs </span></h1>
+            <div class="swiper blog-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="asset/blog1.jpg" alt="Blogs Image">
+                        <div class="content">
+                            <div class="icons">
+                                <a href="#"><i class="fa fa-user"> By User </i></a>
+                                <a href="#"><i class="fa fa-calendar"> 1st may, 2021 </i></a>
+                            </div>
+                            <h3> Extracting Your Acne is NEVER A Good Idea! </h3>
+                            <p> Many clients ask me what is the main reason for the large red dot that lingers on after their pimple is gone?  Well, truthfully, you will always see some kind of indication that there was a pimple even after it dries up, and it will heal slowly and eventually disappear ... </p>
+                            <a href="html/blog1.html" class="btn"> Read More </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="asset/blog2.jpg" alt="Blogs Image">
+                        <div class="content">
+                            <div class="icons">
+                                <a href="#"><i class="fa fa-user"> By User </i></a>
+                                <a href="#"><i class="fa fa-calendar"> 1st may, 2021 </i></a>
+                            </div>
+                            <h3> Dry Skin Facts and Tips During the Winter Season </h3>
+                            <p> Winter effects our skin quickly by drying it out.  For those who have dry skin, the uncomfortable tight, dry and itchy feeling accompanied by redness begins to seep in during this time of year.  Here are some important facts and tips to ... </p>
+                            <a href="html/blog2.html" class="btn"> Read More </a>
+                        </div>
+                    </div>
+
+                   <div class="swiper-slide box">
+                        <img src="asset/blog3.jpg" alt="Blogs Image">
+                        <div class="content">
+                            <div class="icons">
+                                <a href="#"><i class="fa fa-user"> By User </i></a>
+                                <a href="#"><i class="fa fa-calendar"> 1st may, 2021 </i></a>
+                            </div>
+                            <h3> Can You Really Shrink Your Pores? </h3>
+                            <p> Many people ask me why their pores are large, and what can be done to minimize their appearance? These are good questions, but in order to answer them it requires understanding more about our pores. This information will empower you so you will not be fooled by products ... </p>
+                            <a href="html/blog3.html" class="btn"> Read More </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="asset/blog4.jpg" alt="Blogs Image">
+                        <div class="content">
+                            <div class="icons">
+                                <a href="#"><i class="fa fa-user"> By User </i></a>
+                                <a href="#"><i class="fa fa-calendar"> 1st may, 2021 </i></a>
+                            </div>
+                            <h3> Age Prevention of the Neck and Chest </h3>
+                            <p> When it comes to skin aging, the neck and décolletage region is just as susceptible as the face.  Whenever I have a skin consultation with a client, I often refer to the neck and chest as the “forgotten zone” because we forget to care for our neck and chest on a daily basis. </p>
+                            <a href="html/blog4.html" class="btn"> Read More </a>
+                        </div>
+                    </div>
+            </div>
+          </section>
+
+          <!-- Footer Section -->
+           <section class="footer" id="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3> 30min-skinhave <i class="fa fa-basket-shopping"></i></h3>
+                    <p> Feel Free To Follow Us On Our Social Media Handles All The Links Are Given Below. </p>
+                    <div class="share">
+                        <a href="https://www.facebook.com/30min.skinhaven" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/30min_skinhaven" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-whatsapp"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h3> Contact Info </h3>
+                        <a href="#" class="links"><i class="fa fa-phone"></i> +9800000000 </a>
+                        <a href="#" class="links"><i class="fa fa-phone"></i> +98915000000 </a>
+                        <a href="#" class="links"><i class="fa fa-envelope"></i> *****@gmail.com </a>
+                        <a href="#" class="links"><i class="fa fa-map-marker"></i> Mashhad, Iran </a>
+                </div>
+
+                <div class="box">
+                    <h3> Quick Links </h3>
+                        <a href="#" class="links"><i class="fa fa-arrow-right"></i> Home </a>
+                        <a href="#" class="links"><i class="fa fa-arrow-right"></i> Features </a>
+                        <a href="#" class="links"><i class="fa fa-arrow-right"></i> Products </a>
+                        <a href="#" class="links"><i class="fa fa-arrow-right"></i> Review </a>
+                        <a href="#" class="links"><i class="fa fa-arrow-right"></i> Blogs </a>
+                </div>
+
+                <div class="box">
+                    <h3> Newsletter </h3>
+                    <p>Subscribe For Latest Updates</p>
+                   <input class="email" type="email" placeholder="Your Email">
+                   <input class="btn" type="submit" value="subscribe">
+                   <img class="payment-img" src="asset/payment.png" alt="Payment Image">
+                </div>
+            </div>
+            <div class="credit"> Created By <span> Shirin Hajizadeh </span> | All Rights Reserved </div>
+           </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="JS/main.js" defer></script>        
+    </body>
+</html>
